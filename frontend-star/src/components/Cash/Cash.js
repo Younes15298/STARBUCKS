@@ -1,5 +1,5 @@
 import "./Cash.css";
-
+import visa from "../../assets/img/3A.png"
 
 const Cash = () => {
     return(<>
@@ -76,7 +76,7 @@ const Cash = () => {
 
 
     <div className="middle d-flex">
-     <div><img src="https://www.starbucks.com/weblx/images/rewards/ways-to-pay/3A.png" alt="" /></div>
+     <div><img src={visa} alt="" /></div>
      <div>
      <div><span>Earn Stars even faster</span>
      <p>Earn Stars on all purchases you make with our 
