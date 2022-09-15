@@ -1,4 +1,4 @@
 # STARBUCKS
 
-open link to open view life
+open link to view life
 https://starbucks-caffe.netlify.app/
