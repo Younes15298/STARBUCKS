@@ -121,11 +121,11 @@ li {
   width: 300px;
   margin-bottom: 20px;
 }
+.headmenu .contain {
+  width: 100%;
+}
 .headmenu .containimg {
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 .headmenu .img {
   width: 200px;
@@ -158,8 +158,14 @@ li {
   margin: auto 0;
   width: 100%;
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 500px) {
+  .headmenu .contain {
+    display: flex;
+  }
+  .headmenu .links {
+    font-size: 18px;
+  }
   .headmenu .img {
-    width: 80%;
+    width: 80px;
   }
 }/*# sourceMappingURL=CategMenu.css.map */

@@ -4,7 +4,6 @@ import { useParams } from "react-router-dom";
 import Sidebar from "../SideBar/Sidebar";
 import BottomBar from "../BottomBar.scss/BotttomBar";
 import CardProduct from "./CardProduct";
-
 import { useEffect } from "react";
 
 
@@ -104,6 +103,7 @@ function CategMenu() {
     return (
  <>
 <div className="d-flex">
+  
    <Sidebar />
    <section className="headmenu"> 
          {Menu}

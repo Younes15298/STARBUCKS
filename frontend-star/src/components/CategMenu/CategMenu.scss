@@ -40,14 +40,21 @@ h2{
     width: 300px;
     margin-bottom: 20px;
 }
+.contain{
+   width: 100%;
+}
 .containimg{
-    height: fit-content;
-    margin: 0 auto;
+    margin: 0 auto !important;
+
+   
+
+
 }
 
     .img{
         width: 200px;
         margin: 0 auto !important;
+        
         border-radius: 50%;
         overflow: hidden;
         margin: 20px;
@@ -55,7 +62,7 @@ h2{
     
             img{ 
                  transform: scale(1.8);
-       
+               
             }
          }
          .grids{
@@ -69,6 +76,7 @@ h2{
     letter-spacing: -.01em;
     line-height: 1.5;
     margin: 10px auto;
+    // width: fit-content;
 }
 
     a{
@@ -79,13 +87,28 @@ h2{
         margin: auto 0;
         width: 100%;
     }
-
-
-    @media screen  and (max-width : 350px) {
-       .img{
-           
-            width: 80%;
-    
+    @media screen  and (max-width : 500px) {
+        .contain{
+            display: flex;
+         }
+         .links{
+          
+            font-size: 18px;
+        
         }
-    }
+        .img{
+            
+             width: 80px;
+        
+     
+         }
+     }
+
+    // @media screen  and (max-width : 350px) {
+    //    .img{
+           
+    //         width: 80%;
+    
+    //     }
+    // }
 }   
